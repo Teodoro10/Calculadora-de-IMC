@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/icons/calculadora.png" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&family=Poppins:wght@400;500&family=Rubik:ital,wght@1,500&family=Ubuntu&display=swap" rel="stylesheet">
+    <title>Calculadora IMC</title>
+  </head>
+  <body>
+    <div class="fundo">
+      <h1 id="titulo">Calculadora IMC</h1>
+      <!-- o metodo post, ele envia  -->
+      <form action="" method="post" id="formulario">
+        <div class="form_group">
+          <label for="nome" class="label">Nome</label>
+          <input type="text"
+           name="nome" 
+           id="nome" 
+           required 
+           autofocus 
+           placeholder="Exemplo: Julio"/>
+        </div>
+        <div class="form_group">
+          <label for="idade" class="label">Idade</label>
+          <input
+            type="number"
+            name="idade"
+            id="idade"
+            step="0.00"
+            min="1"
+            max="130"
+            required
+            placeholder="Exemplo:19"
+          />
+        </div>
+        <div class="form_group">
+            <label for="peso" class="label">Peso</label>
+            <input
+              type="number"
+              step="0.00"
+              name="peso"
+              id="peso"
+              min="0.0"
+              max="500.0"
+              required
+              placeholder="Exemplo:90.00"
+            />
+          </div>
+          <div class="form_group">
+            <label for="altura" class="label">Altura</label>
+            <input
+              type=""
+              name="altura"
+              id="altura"
+              required
+              placeholder="Exemplo:2.00"
+            />
+          </div>
+          <div class="form_group">
+            <button class="botoes" type="submit" id="btnEnviar">Enviar</button>
+            <button class="botoes" type="reset" id="btnLimpar">Limpar</button>
+          </div>
+  
+    <script src="/js/main.js"></script>
+  </body>
+</html>
+<!-- O step atributo especifica o intervalo entre números válidos em um <input>elemento.
+O stepatributo pode ser usado junto com os atributos maxe minpara criar um intervalo de valores legais. -->

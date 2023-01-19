@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Odibee+Sans&family=Poppins:wght@400;500&family=Rubik:ital,wght@1,500&family=Ubuntu&display=swap");
+
+body {
+  background: #090e22;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 35rem;
+}
+.fundo {
+  background-color: #808080;
+  padding: 10%;
+  margin-top: 3%;
+  margin-bottom: 2%;
+  border-radius: 3rem;
+}
+#titulo {
+  color: #1c1c1c;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 4rem;
+  font-family: "Rubik", sans-serif;
+}
+.form_group {
+  margin: 1rem;
+  padding-left: 2rem;
+}
+
+.label {
+  font-size: 1.2rem;
+  font-family: "Rubik", sans-serif;
+}
+#nome {
+  background-color: white;
+  display: flex;
+  width: 72%;
+  margin-top: 0.5rem;
+  padding: 2%;
+  font-family: "Rubik", sans-serif;
+}
+#idade,
+#altura,
+#peso {
+  background-color: white;
+  display: flex;
+  margin-top: 0.5rem;
+  padding: 2%;
+  width: 72%;
+  font-family: "Rubik", sans-serif;
+}
+input {
+  margin-right: 3rem;
+}
+.botoes {
+  width: 30%;
+  padding: 0.2rem;
+  margin-top: 0.5rem;
+  background-color: #fff;
+  box-shadow: 2px 2px;
+  margin-right: 0.4rem;
+  font-family: "Rubik", sans-serif;
+  cursor: pointer;
+}
+.botoes:active {
+  transform: translateY(4px);
+}
+
+
+
